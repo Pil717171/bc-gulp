@@ -9,68 +9,7 @@
 @import "comment.scss";
 @import "contact.scss";
 
-p {
-    font-family: Roboto;
-    font-weight: 400;
-    color: #EBE6E2;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    color: #000000;
-    &.white-text {
-        color: #D8D8D8;
-    }
-}
 
-h1 {
-    font-family: Tenor Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 56px;
-    text-transform: uppercase;
-    color: #C69C6D;
-}
-
-h2 {
-    font-family: Tenor Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 37px;
-    color: #C69C6D;
-}
-
-h3 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    color: #EBE6E2;
-}
-
-a {
-    text-decoration: none;
-    color: #EBE6E2;;
-    &:hover {
-        text-decoration: none;
-    }
-}
-
-body {
-    // height: 100vh;
-    overflow: hidden;
-}
-
-.body-wrapper {
-    height: 100vh;
-    position: relative;
-    overflow: hidden;
-    scroll-behavior: smooth;
-}
 
 // Default
 html, body, div, span, applet, object, iframe,
@@ -135,4 +74,65 @@ button, input { line-height: normal; }
 table { border-collapse: collapse; border-spacing: 0; }
 td, th { padding: 0; text-align: left; }
 
+p {
+    font-family: Roboto;
+    font-weight: 400;
+    color: #EBE6E2;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    &.white-text {
+        color: #D8D8D8;
+    }
+}
 
+h1 {
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #C69C6D;
+}
+
+h2 {
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #C69C6D;
+}
+
+h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #EBE6E2;
+}
+
+a {
+    text-decoration: none;
+    color: #EBE6E2;;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+body {
+    // height: 100vh;
+    overflow: hidden;
+}
+
+.body-wrapper {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
